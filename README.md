@@ -34,20 +34,22 @@ Before using this tool, you’ll need:
    ```code
    npm install
 
+3. Create a `.env.example`:
+   ```code
+   echo "MAKE_API_TOKEN=your-api-token-here" > .env.example
+   echo "MAKE_ORGANIZATION_ID=your-org-id-here" >> .env.example
+
 3. Create a .env file based on the template:
    ```code
    cp .env.example .env
 
-4. Fill in your .env file:
-   ```code
-   MAKE_API_TOKEN=your-make-api-token
-   MAKE_ORGANIZATION_ID=your-org-id
-
-5. Set your search term in fetchScenarios.js:
+4. Replace the example values in your `.env` file with your actual Make API token and organization ID
+   
+6. Set your search term in `fetchScenarios.js`:
    ```code
    const SEARCH_TERM = 'your-search-keyword';
 
-6. 🚀 Run the Script
+7. 🚀 Run the Script
    ```code
    node fetchScenarios.js
 
