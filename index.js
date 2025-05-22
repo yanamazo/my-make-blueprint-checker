@@ -4,8 +4,8 @@ const axios = require('axios');
 // Load configuration from environment variables
 const API_TOKEN = process.env.MAKE_API_TOKEN;
 const ORGANIZATION_ID = process.env.MAKE_ORGANIZATION_ID;
-const BASE_URL = 'https://eu2.make.com/api/v2';
-const SEARCH_TERM = 'amazon'; // ✅ Declared as a global constant
+const BASE_URL = 'https://eu2.make.com/api/v2'; // replace with your base url
+const SEARCH_TERM = 'telegram'; // replace with your keyword for search
 
 if (!API_TOKEN || !ORGANIZATION_ID) {
   console.error('Missing required environment variables. Please set MAKE_API_TOKEN and MAKE_ORGANIZATION_ID.');
