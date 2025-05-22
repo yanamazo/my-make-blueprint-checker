@@ -40,7 +40,7 @@ Before using this tool, you’ll need:
    ```code
    cp .env.example .env
 5. Replace the example values in your `.env` file with your actual Make API token and organization ID
-6. Set your search term in `fetchScenarios.js`:
+6. Set your search term in `index.js`:
    ```code
    const SEARCH_TERM = 'your-search-keyword';
 7. 🚀 Run the Script
